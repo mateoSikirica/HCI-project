@@ -1,9 +1,10 @@
 import React from "react"
 
+import HeaderBar from '../components/headerBar'
+
 const IndexPage = () => (
   <main>
-    <h1>Hi people</h1>
-    <p>This is were we will add content</p>
+    <HeaderBar />
   </main>
 )
 

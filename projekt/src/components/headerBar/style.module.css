@@ -1,0 +1,151 @@
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+  }
+  
+  .container computerShop {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 30px;
+    top: 13px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 55px;
+    
+    color: #779FED;
+    
+    border: 1px solid #000000;
+  }
+
+  .container line1 {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 380px;
+    top: 34px;
+    
+    border: 3px solid #779FED;
+    transform: rotate(-90deg);
+  }
+
+  .container line2 {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 410px;
+    top: 34px;
+    
+    border: 3px solid #779FED;
+    transform: rotate(-90deg);
+  }
+
+  .container home {
+    position: absolute;
+    width: 112px;
+    height: 50px;
+    left: 692px;
+    top: 20px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    
+    color: #779FED;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .container blog {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 807px;
+    top: 20px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    
+    color: #779FED;
+    
+  }
+  
+  .container contact {
+    position: absolute;
+    width: 171px;
+    height: 50px;
+    left: 915px;
+    top: 20px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    
+    color: #779FED;
+  }
+  
+  .container components {
+    position: absolute;
+    width: 253px;
+    height: 50px;
+    left: 1060px;
+    top: 20px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    
+    color: #779FED;
+  }
+  
+  .container cart {
+    position: absolute;
+    width: 96px;
+    height: 50px;
+    left: 1250px;
+    top: 20px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    
+    color: #779FED;
+  }
+  
+  .container gaming {
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    left: 1370px;
+    top: 20px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    
+    color: #779FED;
+  }
+
+  
