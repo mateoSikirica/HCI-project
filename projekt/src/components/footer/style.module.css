@@ -1,9 +1,10 @@
 .footer {
     background-color: rgb(0, 0, 0);
-    padding: 40px;
+    padding: 10px;
     display: flex;
     color: #779FED;
     font-size: 16px;
+    margin-top: 1000px;
 }
 
 .footer .address {
