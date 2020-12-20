@@ -5,7 +5,7 @@ import React from 'react'
  
   const Footer = ({activeTab}) => (
     <footer className={styles.footer}>
-        <ul className={styles.address}>
+        <ul className={styles.logo_authors}>
             <li className={styles.title}>
                 COMPUTER SHOP
             </li>

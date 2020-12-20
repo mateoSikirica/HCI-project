@@ -2,23 +2,24 @@
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
-    width: 480px;
+    width: 700px;
+    padding: 15px;
   }
   
   .navigationBar li {
-    padding: 14px 15px;
+    padding: 0px 8px;
     list-style: none;
     width: fit-content;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 28px;
     text-transform: uppercase;
-    color: #555
+    color: #779FED;
   }
   .navigationBar li:hover {
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid #779FED;
     cursor: pointer;
   }
   
   .navigationBar .active, .navigationBar .active:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #779FED;
   }

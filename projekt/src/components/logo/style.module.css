@@ -2,11 +2,12 @@
   display: flex;
   flex-flow: column;
   width: fit-content;
-  height: 52px;
+  height: 40px;
   color: #779FED;
+  padding: 10px 30px;
+  border-right: 8px double #779FED;
 }
 
 .logoText {
   font-size: 32px
-  
 }

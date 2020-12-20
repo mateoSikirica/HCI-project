@@ -1,45 +1,46 @@
 .footer {
     background-color: rgb(0, 0, 0);
-    padding: 10px;
+    height: 100px;
     display: flex;
     color: #779FED;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 1000px;
 }
 
-.footer .address {
+.footer .logo_authors {
     list-style: none;
     display: flex;
     flex-flow: column;
     text-align: center;
-    border-right: 1px rgb(119, 159, 237) solid;
-    padding-right: 10px;
+    border-right: 1px solid #779FED;
+    padding-right: 30px;
 }
 
 .title {
-    font-size: 28px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 .navigation {
-    padding-top: 15px;
+    padding-top: 10px;
     list-style: none;
     display: flex;
     text-transform: uppercase;
 }
 
 .navigation li {
+    padding: 0 8px;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 18px;
     height: fit-content;
 }
 
 .navigation li:hover {
-    border-bottom: 1px solid rgb(119, 159, 237);
+    border-bottom: 2px solid #779FED;
     cursor: pointer;
 }
 
 .active{
-    border-bottom: 2px solid rgb(119, 159, 237);
+    border-bottom: 2px solid #779FED;
   }
