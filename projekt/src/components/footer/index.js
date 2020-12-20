@@ -3,7 +3,7 @@ import React from 'react'
  
   const navTabs = ['Home', 'Blog', 'Contact', 'Components', 'Cart', 'Gaming']
  
-  const Footer = () => (
+  const Footer = ({activeTab}) => (
     <footer className={styles.footer}>
         <ul className={styles.address}>
             <li className={styles.title}>
@@ -13,11 +13,11 @@ import React from 'react'
             <li>Ivan Vilić</li>
         </ul>
         
-        <ul className={styles.navigation}>
-            {navTabs.map(tab =>
-              <li>{tab}</li>)
-            }
-        </ul>
+      <ul className={styles.navigation}>
+      {navTabs.map(tab => <li className={tab === activeTab ? styles.active : ''}>
+      {tab}</li>
+      )}
+      </ul>
     </footer>
   )
  
