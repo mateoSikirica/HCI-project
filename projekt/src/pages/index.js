@@ -1,12 +1,10 @@
 import React from "react"
 
-import HeaderBar from '../components/headerBar'
-import Footer from '../components/Footer'
+import NavigationHeader from '../components/NavigationHeader'
 
 const IndexPage = () => (
   <main>
-    <HeaderBar activeTab = "Home" />
-    <Footer activeTab = "Home"/>
+   <NavigationHeader activeTab = "Home" />
   </main>
 )
 

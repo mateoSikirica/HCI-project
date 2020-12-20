@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 52px;
+  color: #779FED;
+}
+
+.logoText {
+  font-size: 32px
+  
+}
