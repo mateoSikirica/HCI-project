@@ -39,6 +39,10 @@
 }
 
 .navigation li:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(119, 159, 237);
     cursor: pointer;
 }
+
+.active{
+    border-bottom: 2px solid rgb(119, 159, 237);
+  }

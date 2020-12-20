@@ -5,8 +5,8 @@ import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <main>
-    <HeaderBar />
-    <Footer />
+    <HeaderBar activeTab = "Home" />
+    <Footer activeTab = "Home"/>
   </main>
 )
 

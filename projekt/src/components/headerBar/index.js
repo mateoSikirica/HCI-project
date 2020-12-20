@@ -3,7 +3,7 @@ import styles from './style.module.css'
 
 const navTabs = ['Home', 'Blog', 'Contact', 'Components', 'Cart', 'Gaming']
  
-const HeaderBar = () => (
+const HeaderBar = ({activeTab}) => (
   <header className={styles.header}>
       <ul className={styles.address}>
           <li className={styles.title}>
@@ -12,16 +12,9 @@ const HeaderBar = () => (
       </ul>
       
       <ul className={styles.navigation}>
-          {navTabs.map(tab => {
-            if (tab === 'Home')
-            return (
-              <li className={styles.active}>
-                {tab}
-              </li>)
-            else
-              return <li>{tab}</li>
-            }
-          )}
+      {navTabs.map(tab => <li className={tab === activeTab ? styles.active : ''}>
+      {tab}</li>
+    )}
       </ul>
   </header>
 )
