@@ -1,14 +1,30 @@
 .eachslide > div {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 900px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-size: cover;
-    height: 350px;
+    border-radius: 10px;
   }
   
   .eachslide span {
+    display: table;
+    margin: 0 auto;
     padding: 20px;
     font-size: 20px;
-    background: #efefef;
+    background-image: #efefef;
     text-align: center;
+    color: white;
+  }
+
+  .slideOne{
+    background-image: url("../../images/setup1.jpg");
+  }
+  .slideTwo{
+    background-image: url("../../images/setup2.jpg");
+  }
+  .slideThree{
+    background-image: url("../../images/setup3.jpg");
   }
