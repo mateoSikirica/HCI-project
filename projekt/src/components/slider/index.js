@@ -9,17 +9,17 @@ const Slideshow = () => {
         <Slide easing="ease">
           <div className={styles.eachslide}>
             <div className={styles.slideOne}>
-              <span>Slide 1</span>
+              <span></span>
             </div>
           </div>
           <div className={styles.eachslide}>
             <div className={styles.slideTwo}>
-              <span>Slide 2</span>
+              <span></span>
             </div>
           </div>
           <div className={styles.eachslide}>
             <div className={styles.slideThree}>
-              <span>Slide 3</span>
+              <span></span>
             </div>
           </div>
         </Slide>

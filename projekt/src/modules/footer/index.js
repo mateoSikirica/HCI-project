@@ -1,7 +1,7 @@
 import React from 'react'
-  import styles from './style.module.css'
- 
-  const navTabs = ['Home', 'Blog', 'Contact', 'Components', 'Cart', 'Gaming']
+import styles from './style.module.css'
+
+import NavigationBar from '../../components/NavigationBar'
  
   const Footer = ({activeTab}) => (
     <footer className={styles.footer}>
@@ -12,12 +12,7 @@ import React from 'react'
             <li>Mateo Sikirica</li>
             <li>Ivan Vilić</li>
         </ul>
-        
-      <ul className={styles.navigation}>
-      {navTabs.map(tab => <li className={tab === activeTab ? styles.active : ''}>
-      {tab}</li>
-      )}
-      </ul>
+        <NavigationBar />
     </footer>
   )
  

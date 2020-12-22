@@ -1,16 +1,14 @@
 import React from "react"
 
-import NavigationHeader from '../components/navigationHeader'
-import Footer from '../components/footer'
+import HeaderFooterLayout from "../layouts/headerFooter"
 import Slideshow from '../components/slider'
+import PageContent from "../modules/PageContent"
 
 const IndexPage = () => (
-  <main>
-   <NavigationHeader activeTab = "Home" />
-   <Slideshow />
-   <Footer activeTab = "Home" />
-   
-  </main>
+  <HeaderFooterLayout activeTab="Home">
+    {<Slideshow />}
+    <PageContent />
+  </HeaderFooterLayout>
 )
 
 export default IndexPage

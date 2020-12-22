@@ -22,25 +22,6 @@
     margin-top: 5px;
 }
 
-.navigation {
-    padding-top: 10px;
-    list-style: none;
-    display: flex;
-    text-transform: uppercase;
-}
-
-.navigation li {
-    padding: 0 8px;
-    margin: 0 10px;
-    font-size: 18px;
-    height: fit-content;
-}
-
-.navigation li:hover {
-    border-bottom: 2px solid #779FED;
-    cursor: pointer;
-}
-
 .active{
     border-bottom: 2px solid #779FED;
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Logo from '../logo'
-import Navigation from '../navigation'
+import Logo from '../../components/logo'
+import Navigation from '../../components/navigation'
 
 import styles from './style.module.css'
 
