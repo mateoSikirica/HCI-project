@@ -6,7 +6,7 @@ const ImageParagraph = ({image, title, text, text2}) => (
     <div className={styles.imageHalf}>{image}</div>
     <div className={styles.articleHalf}>
         <article >
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <p>{text}</p>
           <p>{text2}</p>
         </article>
