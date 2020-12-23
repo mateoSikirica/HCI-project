@@ -15,6 +15,7 @@
     text-transform: uppercase;
     color: #779FED;
   }
+  
   .navigationBar li:hover {
     border-bottom: 2px solid #779FED;
     cursor: pointer;

@@ -12,7 +12,7 @@ import NavigationBar from '../../components/NavigationBar'
             <li>Mateo Sikirica</li>
             <li>Ivan Vilić</li>
         </ul>
-        <NavigationBar />
+        <ul><NavigationBar /></ul>
     </footer>
   )
  
