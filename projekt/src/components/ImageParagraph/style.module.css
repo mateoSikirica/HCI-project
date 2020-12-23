@@ -1,10 +1,13 @@
 .imageParagraph {
-    display: flex;
+    display: inline-table;
     justify-content: space-between;
-    margin: 60px auto;
-    width: 90vw;
+    margin: 60px 0px 60px 10px;
+    width: 270px;
     align-items: center;
-    background-color: #f3f3f3;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px
 }
  
 .reverse {
@@ -18,10 +21,14 @@
  
 .imageParagraph article {
     max-width: 70%;
+    height: 265px;
     margin: 0 auto;
+    color: white;
     letter-spacing: 0.2px;
 }
  
 .imageHalf div, .imageHalf div div {
     width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }

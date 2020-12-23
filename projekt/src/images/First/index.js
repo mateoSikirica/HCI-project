@@ -7,7 +7,7 @@ const First = () => {
    query {
      myImage: file(relativePath: { eq: "prva.jpg" }) {
        childImageSharp {
-         fixed(width: 570) {
+         fixed(width: 270) {
            ...GatsbyImageSharpFixed
          }
        }
