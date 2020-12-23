@@ -21,12 +21,13 @@
  
 .imageParagraph article {
     max-width: 70%;
-    height: 265px;
+    height: 210px;
     margin: 0 auto;
     color: white;
     letter-spacing: 0.2px;
+    text-align: left;
 }
- 
+
 .imageHalf div, .imageHalf div div {
     width: 100%;
     border-top-right-radius: 15px;
