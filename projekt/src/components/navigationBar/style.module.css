@@ -4,16 +4,18 @@
     flex-flow: row;
     width: 700px;
     padding: 15px;
+    padding-right: 0px;
   }
   
   .navigationBar li {
-    padding: 0px 8px;
+    margin: 0px 10px;
     list-style: none;
     width: fit-content;
     font-size: 18px;
     line-height: 28px;
     text-transform: uppercase;
     color: #779FED;
+    
   }
   
   .navigationBar li:hover {
@@ -23,4 +25,18 @@
   
   .navigationBar .active, .navigationBar .active:hover{
     border-bottom: 2px solid #779FED;
+  }
+
+  .cartIcon{
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    right: 125px;
+  }
+
+  .lockIcon{
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    right: 52px;
   }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .imageParagraph {
     display: inline-table;
     justify-content: space-between;
@@ -32,4 +34,14 @@
     width: 100%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+}
+
+.articleText{
+    font-family: 'Roboto' ;
+    font-size: 12px;
+}
+
+.articleAuthor{
+    position: absolute;
+    padding: 10px 0px;
 }

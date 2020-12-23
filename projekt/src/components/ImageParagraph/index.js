@@ -7,8 +7,8 @@ const ImageParagraph = ({image, title, text, text2}) => (
     <div className={styles.articleHalf}>
         <article >
           <h3>{title}</h3>
-          <p>{text}</p>
-          <p>{text2}</p>
+          <p className={styles.articleText}>{text}</p>
+          <p className={styles.articleAuthor}>{text2}</p>
         </article>
     </div>
   </section>
