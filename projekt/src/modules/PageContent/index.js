@@ -27,6 +27,12 @@ AMD just announced its new lineup of Ryzen 5000 series processors for desktops.
       <ImageParagraph image={<Second />} title="NVIDIA GFORCE RTX3080" text={secondText} text2='AUTHOR: Ivan Vilić'/>
       <ImageParagraph image={<Third />} title="AMD RADEON RX5700" text={thirdText} text2='AUTHOR: Mateo Sikirica'/>
       <ImageParagraph image={<Fourth />} title="AMD 3 RYZEN 5000 PROCESSOR" text={fourthText} text2='AUTHOR: Mateo Sikirica'/>
-    </section>)
+      <section className={styles.blogBox}>
+        <h2 className={styles.buttonBox}>Follow latest tech news on our blog</h2>
+        <button className={styles.buttonBlog} type="button">Blog</button>
+      </section>
+    </section>
+    
+    )
 
 export default PageContent  
