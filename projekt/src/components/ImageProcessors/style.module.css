@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.imageParagraph {
+    display: inline-table;
+    justify-content: space-between;
+    margin: 30px 5px 10px 5px;
+    width: 270px;
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px
+}
+
+.reverse {
+    flex-flow: row-reverse;
+}
+ 
+.imageParagraph .imageHalf, .articleHalf {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 45%;
+    height: 100%;
+}
+
+.imageParagraph .imageHalf { 
+    background-color: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.imageParagraph article {
+    max-width: 70%;
+    height: 110px;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.imageHalf div, .imageHalf div div {
+    width: 100%;
+}
+
+.articleText{
+    font-family: 'Roboto' ;
+    font-size: 12px;
+}
+
+.articleAuthor{
+    position: absolute;
+    padding: 10px 0px;
+}
+
+.button{
+    width: 120px;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: 'Righteous';
+    font-size: 1em;
+    color: white;
+    background-color: #779FED;
+    border: none;
+    border-radius: 15px;
+}
+
+.buttonGaming{
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.titleAndButton{
+    position: relative;
+}

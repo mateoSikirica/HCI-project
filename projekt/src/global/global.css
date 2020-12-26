@@ -10,10 +10,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  a:active,
-  a:hover {
-    outline-width: 0;
-  }
+
   article,
   aside,
   details,
@@ -28,3 +25,11 @@ html {
   summary {
     display: block;
   }
+
+  a,
+a:active,
+a:hover {
+  outline-width: 0;
+  text-decoration: none;
+  color: inherit;
+}
