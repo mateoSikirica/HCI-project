@@ -29,10 +29,15 @@ AMD just announced its new lineup of Ryzen 5000 series processors for desktops.
       <ImageParagraph image={<Fourth />} title="AMD 3 RYZEN 5000 PROCESSOR" text={fourthText} text2='AUTHOR: Mateo Sikirica'/>
       <section className={styles.blogBox}>
         <h2 className={styles.buttonBox}>Follow latest tech news on our blog</h2>
-        <button className={styles.buttonBlog} type="button">Blog</button>
+        <button className={styles.button} type="button">Blog</button>
+      </section>
+      <section className={styles.gamingBox}>
+        <section className={styles.titleAndButton}>
+          <h2 className={styles.buttonGaming}>Sign up to join our gaming community!</h2>
+          <button className={styles.button} type="button">Gaming</button>
+        </section>
       </section>
     </section>
-    
     )
 
 export default PageContent  

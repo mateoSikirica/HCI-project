@@ -18,7 +18,7 @@
     padding: 10px 0px;
 }
 
-.buttonBlog{
+.button{
     width: 120px;
     height: 40px;
     text-transform: uppercase;
@@ -27,5 +27,30 @@
     color: white;
     background-color: #779FED;
     border: none;
+    border-radius: 15px;
+}
+.gamingBox{
+    width: 1118px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+    background: url("../../images/arena.jpg");
+    background-position: center;
+    background-size: cover;
     border-radius: 10px;
+    text-transform: uppercase;
+}
+.buttonGaming{
+    position: relative;
+    bottom: 2px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.titleAndButton{
+    position: relative;
+    top: 300px;
 }
