@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.module.css'
-import ImageProcessors from '../../components/ImageProcessors'
+import ImageProcessorsGraphics from '../../components/ImageProcessorsGraphics'
 import P1 from '../../images/P1'
 import P2 from '../../images/P2'
 import P3 from '../../images/P3'
@@ -23,10 +23,12 @@ Intel® Core™ i9-10850K Processor (20M Cache, up to 5.20 GHz)
 
   const Processors = () => (
     <section className={styles.pageContent}>
-      <ImageProcessors image={<P1/>} title="Intel® Core™ i7" text={firstText} text2="261$"/>
-      <ImageProcessors image={<P2/>} title="Intel® Celeron" text={secondText} text2="60$"/>
-      <ImageProcessors image={<P3/>} title="AMD Ryzen™ 5950X" text={thirdText} text2="77$"/>
-      <ImageProcessors image={<P4/>} title="Intel® Core™ i9" text={fourthText} text2="1050$"/>    
+      <h>COMPONENTS</h>
+      <h1>PROCESSORS</h1>
+      <ImageProcessorsGraphics image={<P1/>} title="Intel® Core™ i7" text={firstText} text2="261$"/>
+      <ImageProcessorsGraphics image={<P2/>} title="Intel® Celeron" text={secondText} text2="60$"/>
+      <ImageProcessorsGraphics image={<P3/>} title="AMD Ryzen™ 5950X" text={thirdText} text2="77$"/>
+      <ImageProcessorsGraphics image={<P4/>} title="Intel® Core™ i9" text={fourthText} text2="1050$"/>    
     </section>
     )
 
