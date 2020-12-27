@@ -1,0 +1,34 @@
+.imageParagraph {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+    width: 70vw;
+    align-items: center;
+    background-color: #000000;
+    color:white;
+    border-radius: 15px;
+}
+
+.imageParagraph .imageHalf {
+    min-width: 45%;
+    position: relative;
+    float: right;
+    height: 100%;
+}
+ 
+.imageParagraph article {
+    max-width: 70%;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+}
+ 
+.imageHalf div, .imageHalf div div {
+    width: 120%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.imageParagraph p {
+    text-align: left;
+    white-space: pre-line;
+}
