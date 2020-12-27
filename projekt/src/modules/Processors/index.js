@@ -23,11 +23,10 @@ Intel® Core™ i9-10850K Processor (20M Cache, up to 5.20 GHz)
 
   const Processors = () => (
     <section className={styles.pageContent}>
-      <ImageProcessors image={<P1 />} title="Intel® Core™ i7" text={firstText} text2="261$"/>
-      <ImageProcessors image={<P2 />} title="Intel® Celeron" text={secondText} text2="60$"/>
-      <ImageProcessors image={<P3 />} title="AMD Ryzen™ 5950X" text={thirdText} text2="77$"/>
-      <ImageProcessors image={<P4 />} title="Intel® Core™ i9" text={fourthText} text2="1050$"/>    
-
+      <ImageProcessors image={<P1/>} title="Intel® Core™ i7" text={firstText} text2="261$"/>
+      <ImageProcessors image={<P2/>} title="Intel® Celeron" text={secondText} text2="60$"/>
+      <ImageProcessors image={<P3/>} title="AMD Ryzen™ 5950X" text={thirdText} text2="77$"/>
+      <ImageProcessors image={<P4/>} title="Intel® Core™ i9" text={fourthText} text2="1050$"/>    
     </section>
     )
 
