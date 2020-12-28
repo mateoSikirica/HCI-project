@@ -63,7 +63,7 @@ computerrijeka@gmail.com
 
   const Processors = () => (
     <section className={styles.pageContent}>
-      <h1>CONTACT</h1>
+      <h2 className={styles.ContactTitle}>Contact</h2>
       <ImageContacts image={<C1/>} text={firstText} text2={text1}/>
       <ImageContacts image={<C2/>} text={firstText} text2={text2}/>
       <ImageContacts image={<C3/>} text={firstText} text2={text3}/>
