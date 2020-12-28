@@ -7,37 +7,57 @@ import ImageContacts from '../../components/ImageContacts'
 
 const firstText = `
 COUNTRY: 
+
 CITY:
+
 ADDRESS:
+
 ZIP CODE:
+
 PHONE NUMBER:
+
 E-MAIL:
 `
 
 const text1 = `
 Croatia
+
 Split
+
 Pujanke 6
+
 21000
+
 021 567 999
+
 computersplit@gmail.com
 `
 
 const text2 = `
 Croatia
+
 Zagreb
+
 Ilica 44
+
 21000
+
 021 888 999
+
 computerzagreb@gmail.com
 `
 
 const text3 = `
 Croatia
+
 Rijeka
+
 Adamićeva 11
+
 21000
+
 021 765 999
+
 computerrijeka@gmail.com
 `
 

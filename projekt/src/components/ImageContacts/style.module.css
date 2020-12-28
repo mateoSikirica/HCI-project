@@ -11,24 +11,29 @@
 
 .imageParagraph .imageHalf {
     min-width: 45%;
+    display: inline-table;
     position: relative;
     float: right;
     height: 100%;
 }
  
-.imageParagraph article {
-    max-width: 70%;
-    margin: 0 auto;
-    letter-spacing: 0.2px;
-}
- 
 .imageHalf div, .imageHalf div div {
-    width: 120%;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    display: inline-table;
+    width: 515px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.imageParagraph .article {
+    display: inline-table;
+    max-width: 70%;
+    letter-spacing: 0.2px;
 }
 
 .imageParagraph p {
+    display: inline-table;
     text-align: left;
     white-space: pre-line;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
