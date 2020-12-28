@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.blogContainer{
+    width: 1118px;
+    height: 300px;
+    margin: 30px auto;
+    display: flex;
+    background-color: #000000;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.titleBlog{
+    padding-left: 50px;
+}
+
+
+.articleText{
+    font-family: 'Roboto' ;
+    font-size: 18px;
+    padding: 10px 50px 0px 50px;
+    height: 120px;
+}
+
+.authorAndButton{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+}
+
+.articleAuthor{
+    font-size: 1.2em;
+}
+
+
+.button{
+    margin-top: 15px;
+    width: 160px;
+    height: 35px;
+    font-family: 'Righteous';
+    font-size: 1.2em;
+    color: white;
+    background-color: #779FED;
+    border: none;
+    border-radius: 15px;
+}
+
+.blogImage img{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

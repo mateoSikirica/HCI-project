@@ -2,16 +2,18 @@ import React from 'react'
 import styles from './style.module.css'
  
 const BlogCard = ({image, title, text1, text2}) => (
-  <section className={styles.imageParagraph}>
-    <div className={styles.imageHalf}>{image}</div>
+  <section className={styles.blogContainer}>
     <div className={styles.articleHalf}>
         <article >
-          <h3>{title}</h3>
+          <h2 className={styles.titleBlog}>{title}</h2>
           <p className={styles.articleText}>{text1}</p>
+        </article>
+        <div className={styles.authorAndButton}>
           <p className={styles.articleAuthor}>{text2}</p>
           <button className={styles.button} type="button">Read More</button>
-        </article>
+        </div>
     </div>
+    <div className={styles.blogImage}>{image}</div>
   </section>
   )
  
