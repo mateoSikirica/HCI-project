@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 60px auto;
-    width: 70vw;
+    width: 1118px;
     align-items: center;
     background-color: #000000;
     color:white;
@@ -19,14 +19,13 @@
  
 .imageHalf div, .imageHalf div div {
     display: inline-table;
-    width: 515px;
+    width: 550px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 .imageParagraph .article {
     display: inline-table;
-    max-width: 70%;
     letter-spacing: 0.2px;
 }
 
