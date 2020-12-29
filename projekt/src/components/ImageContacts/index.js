@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style.module.css'
  
-const ImageParagraph = ({image, text, text2 }) => (
+const imageContacts = ({image, text, text2 }) => (
   <section className={styles.imageParagraph}>
     <div className={styles.articleHalf}>
         <article>
@@ -13,4 +13,4 @@ const ImageParagraph = ({image, text, text2 }) => (
   </section>
   )
  
-export default ImageParagraph
+export default imageContacts
