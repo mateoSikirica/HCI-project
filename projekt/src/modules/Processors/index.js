@@ -23,7 +23,7 @@ Intel® Core™ i9-10850K Processor (20M Cache, up to 5.20 GHz)
 
   const Processors = () => (
     <section className={styles.pageContent}>
-      <h>COMPONENTS</h>
+      <h2>COMPONENTS</h2>
       <h1>PROCESSORS</h1>
       <ImageProcessorsGraphics image={<P1/>} title="Intel® Core™ i7" text={firstText} text2="261$"/>
       <ImageProcessorsGraphics image={<P2/>} title="Intel® Celeron" text={secondText} text2="60$"/>
