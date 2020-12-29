@@ -7,3 +7,23 @@
     padding-left: 50px;
     border-bottom: 1px solid lightgray;
 }
+
+.button{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 35px;
+    font-family: 'Righteous';
+    font-size: 1.2em;
+    color: white;
+    background-color: #779FED;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    cursor: pointer;
+}

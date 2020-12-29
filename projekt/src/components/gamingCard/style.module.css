@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.gamingContainer{
+    width: 1118px;
+    height: 300px;
+    margin: 30px auto;
+    display: flex;
+    background-color: #000000;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.gamingImage img{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.articleText{
+    font-family: 'Roboto' ;
+    font-size: 16px;
+    padding-left: 20px;
+    
+}
+
+.articleHalf p{
+    display: inline-table;
+    text-align: left;
+    white-space: pre-line;
+}
