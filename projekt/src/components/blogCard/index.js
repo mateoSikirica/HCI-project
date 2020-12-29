@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './style.module.css'
+import {navigate} from "gatsby"
  
 const BlogCard = ({image, title, text1, text2}) => (
   <section className={styles.blogContainer}>
@@ -10,7 +11,7 @@ const BlogCard = ({image, title, text1, text2}) => (
         </article>
         <div className={styles.authorAndButton}>
           <p className={styles.articleAuthor}>{text2}</p>
-          <button className={styles.button} type="button">Read More</button>
+          <button onClick={() => navigate("../../blog_readmore")} className={styles.button} type="button">Read More</button>
         </div>
     </div>
     <div className={styles.blogImage}>{image}</div>
