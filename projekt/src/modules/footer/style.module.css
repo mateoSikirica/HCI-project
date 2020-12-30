@@ -25,3 +25,29 @@
 .active{
     border-bottom: 2px solid #779FED;
 }
+
+.socialMedia{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    margin-top: 30px;
+    width: 160px;
+    justify-content: space-evenly;
+}
+
+
+.youtube {
+    color: #eb3223;
+  }
+  
+.facebook {
+    color: #0078da;
+  }
+  
+.twitter {
+    color: #58b4ff;
+  }
+  
+.instagram {
+    color: rgb(199, 0, 199);
+  }
