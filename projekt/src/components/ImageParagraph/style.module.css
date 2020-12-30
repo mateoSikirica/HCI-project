@@ -36,6 +36,10 @@
     border-top-left-radius: 15px;
 }
 
+.articleHalf h3{
+    text-align: left;
+}
+
 .articleText{
     font-family: 'Roboto' ;
     font-size: 12px;

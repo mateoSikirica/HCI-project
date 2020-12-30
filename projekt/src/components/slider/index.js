@@ -9,17 +9,17 @@ const Slideshow = () => {
         <Slide easing="ease">
           <div className={styles.eachslide}>
             <div className={styles.slideOne}>
-              <span></span>
+              <span>Computer Shop - The best in the business!</span>
             </div>
           </div>
           <div className={styles.eachslide}>
             <div className={styles.slideTwo}>
-              <span></span>
+              <span>Computer Shop - The best in the business!</span>
             </div>
           </div>
           <div className={styles.eachslide}>
             <div className={styles.slideThree}>
-              <span></span>
+              <span>Computer Shop - The best in the business!</span>
             </div>
           </div>
         </Slide>

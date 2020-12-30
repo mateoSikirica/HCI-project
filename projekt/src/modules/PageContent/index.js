@@ -7,6 +7,7 @@ import Second from '../../images/Second'
 import Third from '../../images/Third'
 import Fourth from '../../images/Fourth'
 import Brands from '../../images/Brands'
+import {navigate} from "gatsby"
 
 const firstText = `
 Intel’s Rocket Lake flagship – this is the top-end chip because it’s an 8-core model.
@@ -31,17 +32,17 @@ AMD just announced its new lineup of Ryzen 5000 series processors for desktops.
       <ImageParagraph image={<Fourth />} title="AMD 3 RYZEN 5000 PROCESSOR" text={fourthText} text2='AUTHOR: Mateo Sikirica'/>
       <section className={styles.blogBox}>
         <h2 className={styles.buttonBox}>Follow latest tech news on our blog</h2>
-        <button className={styles.button} type="button">Blog</button>
+        <button onClick={() => navigate("../../blog")} className={styles.button} type="button">Blog</button>
       </section>
       <section className={styles.componentsBox}>
         <h2 className={styles.buttonBoxC}>Choose between top tech brands</h2>
         <ImageP image={<Brands />}/>
-        <button className={styles.buttonComponents} type="button">Components</button>
+        <button onClick={() => navigate("../../components")} className={styles.buttonComponents} type="button">Components</button>
       </section>
       <section className={styles.gamingBox}>
         <section className={styles.titleAndButton}>
           <h2 className={styles.buttonGaming}>Sign up to join our gaming community!</h2>
-          <button className={styles.button} type="button">Gaming</button>
+          <button onClick={() => navigate("../../gaming")} className={styles.button} type="button">Gaming</button>
         </section>
       </section>
       
