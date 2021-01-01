@@ -38,16 +38,39 @@
 
 .youtube {
     color: #eb3223;
-  }
+}
+
+.youtube:hover{
+  font-size: 120%;
+  color: #c91505;
+}
+
   
 .facebook {
     color: #0078da;
-  }
+}
+
+.facebook:hover{
+  font-size: 120%;
+  color: #006cc5;
+}
+
   
 .twitter {
     color: #58b4ff;
-  }
+}
+
+.twitter:hover{
+  font-size: 120%;
+  color: #2a9dfc;
+}
+
   
 .instagram {
     color: rgb(199, 0, 199);
-  }
+}
+
+.instagram:hover{
+  font-size: 120%;
+  color: rgb(170, 0, 170);
+}
