@@ -2,10 +2,10 @@ import React from "react"
 import HeaderFooterLayout from "../layouts/headerFooter"
 import CartContent from "../modules/CartContent"
 
-const Blog = () => (
+const Cart = () => (
     <HeaderFooterLayout activeTab="Cart">
         <CartContent/>
     </HeaderFooterLayout>
 )
 
-export default Blog
+export default Cart

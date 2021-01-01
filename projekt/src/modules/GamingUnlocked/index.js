@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './style.module.css'
-import {navigate} from "gatsby"
 import GamingCard from '../../components/GamingCard'
 import GamingFirst from '../../images/GamingFirst'
 
@@ -11,13 +10,11 @@ It was held from 25 September to 31 October in Shanghai, China. Twenty-two teams
 
 TOURNAMENT WINNER: DAMWON 
 `
-
-  const GamingContent = () => (
+const GamingUnlocked = () => (
     <section className={styles.pageContent}>
       <h2 className={styles.GamingTitle}>Gaming</h2>
       <GamingCard image={<GamingFirst />} text={firstText}/>
-      <button onClick={() => navigate("../../gaming_unlocked")} className={styles.button} type="button">Sign up to get full access!</button>
     </section>
-    )
+)
 
-export default GamingContent 
+export default GamingUnlocked 
