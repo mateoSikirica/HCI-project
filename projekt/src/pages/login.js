@@ -41,6 +41,12 @@ const Login = () => {
       return submit()
   }}>
     <section className={styles.container}>
+      <section className={styles.logo}>
+        <span className={styles.logoText}>COMPUTER SHOP</span>
+      </section>
+      <section className={styles.logIn}>
+        <span className={styles.logInTitle}>LOGIN</span>
+      </section>
       <section className={styles.field}>
         <label htmlFor="username">
           Username
@@ -55,8 +61,9 @@ const Login = () => {
       </section>
       <p className={`${styles[error !== "Success" ? 'error' : 'success']} ${error ? styles.show : ''}`}>{error}</p>
       <button className={styles.loginButton} onClick={() => submit()}>
-        {loading ? 'Loading...' : 'Login'}
+        {loading ? 'Loading...' : 'Log In'}
       </button>
+      <button onClick={() => navigate("/")} className={styles.loginButton}>Home Page</button>
     </section>
   </main>
 )}
