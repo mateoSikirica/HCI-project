@@ -15,7 +15,7 @@ TOURNAMENT WINNER: DAMWON
 
 const fuk = () => {
       if(localStorage.getItem("loggedIn")) {
-        return null
+        navigate("../../gaming_unlocked")
       }
       else {
         return <button onClick={() => navigate("../../profile")} className={styles.button} type="button">Sign up to get full access!</button>

@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const GamingHalfOne = () => {
    const data = useStaticQuery(graphql`
    query {
-     myImage: file(relativePath: { eq: "mercedesArena.PNG" }) {
+     myImage: file(relativePath: { eq: "mercedesArena.png" }) {
        childImageSharp {
          fixed(width: 540, height: 300) {
            ...GatsbyImageSharpFixed
