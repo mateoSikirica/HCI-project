@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.gamingContainer{
+    width: 540px;
+    height: 300px;
+    display: flex;
+    background-color: #000000;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.gamingImage img{
+    border-radius: 15px;
+}

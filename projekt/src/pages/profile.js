@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import HeaderFooterLayout from "../layouts/headerFooter"
 import GamingUnlocked from "../modules/GamingUnlocked"
  
+import styles from './profile.module.css'
 import {navigate} from 'gatsby'
  
 const Profile = () => {
@@ -9,7 +10,7 @@ const Profile = () => {
  
   if (!user) {
     setTimeout(() => navigate('/login'), 4000)
-    return <p>
+    return <p className={styles.text}>
       You cannot view this page without login! <br/>You will be redirected to login page shortly
     </p>
   }

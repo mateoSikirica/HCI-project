@@ -7,3 +7,10 @@
     padding-left: 50px;
     border-bottom: 1px solid lightgray;
 }
+
+.halfCards{
+    display: flex;
+    width: 1118px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
