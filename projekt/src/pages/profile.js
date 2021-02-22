@@ -6,6 +6,10 @@ import styles from './profile.module.css'
 import {navigate} from 'gatsby'
  
 const Profile = () => {
+  const windowGlobal = typeof window !== 'undefined' && window
+  if(windowGlobal === false) {
+    return true;
+  }
   const [user, setUser] = useState(localStorage.getItem('loggedIn'))
  
   if (!user) {
