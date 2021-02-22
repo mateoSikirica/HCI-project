@@ -14,6 +14,10 @@ TOURNAMENT WINNER: DAMWON
 `
 
 const fuk = () => {
+  const windowGlobal = typeof window !== 'undefined' && window
+  if(windowGlobal === false) {
+    return true;
+  }
       if(localStorage.getItem("loggedIn")) {
         navigate("../../gaming_unlocked")
       }
