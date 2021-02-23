@@ -25,7 +25,7 @@ const fuk = () => {
         return <button onClick={() => navigate("../../profile")} className={styles.button} type="button">Sign up to get full access!</button>
       }
     }
-  const gamingContent = () => (
+  const GamingContent = () => (
     <section className={styles.pageContent}>
       <h2 className={styles.GamingTitle}>Gaming</h2>
       <gamingCard image={<GamingFirst />} text={firstText}/>
@@ -35,4 +35,4 @@ const fuk = () => {
 
     
 
-export default gamingContent 
+export default GamingContent 

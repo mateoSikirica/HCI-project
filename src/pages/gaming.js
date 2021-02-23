@@ -1,10 +1,10 @@
 import React from "react"
 import HeaderFooterLayout from "../layouts/headerFooter"
-import gamingContent from "../modules/gamingContent"
+import GamingContent from "../modules/GamingContent"
 
 const Gaming = () => (
     <HeaderFooterLayout activeTab="Gaming">
-        <gamingContent/>
+        <GamingContent/>
     </HeaderFooterLayout>
 )
  
