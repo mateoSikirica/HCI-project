@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style.module.css'
-import GamingCard from '../../components/GamingCard'
-import GamingCardHalf from '../../components/gamingCardHalf'
+import gamingCard from '../../components/gamingCard'
+import gamingCardHalf from '../../components/gamingCardHalf'
 import GamingFirst from '../../images/GamingFirst'
 import GamingSecond from '../../images/GamingSecond'
 import GamingHalfOne from '../../images/GamingHalfOne'
@@ -25,11 +25,11 @@ TOURNAMENT WINNER: AVANGAR
 const GamingUnlocked = () => (
     <section className={styles.pageContent}>
       <h2 className={styles.GamingTitle}>Gaming</h2>
-      <GamingCard image={<GamingFirst />} text={firstText}/>
-      <GamingCard image={<GamingSecond />} text={secondText}/>
+      <gamingCard image={<GamingFirst />} text={firstText}/>
+      <gamingCard image={<GamingSecond />} text={secondText}/>
       <div className={styles.halfCards}>
-        <GamingCardHalf image={<GamingHalfOne />}/>
-        <GamingCardHalf image={<GamingHalfOne />}/>
+        <gamingCardHalf image={<GamingHalfOne />}/>
+        <gamingCardHalf image={<GamingHalfOne />}/>
       </div>
     </section>
 )

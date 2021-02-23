@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style.module.css'
 
  
-const GamingCard = ({image, text}) => (
+const gamingCard = ({image, text}) => (
   <section className={styles.gamingContainer}>
     <div className={styles.articleHalf}>
         <article >
@@ -13,4 +13,4 @@ const GamingCard = ({image, text}) => (
   </section>
   )
  
-export default GamingCard
+export default gamingCard

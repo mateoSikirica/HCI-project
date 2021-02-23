@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style.module.css'
 import {navigate} from "gatsby"
-import GamingCard from '../../components/GamingCard'
+import gamingCard from '../../components/gamingCard'
 import GamingFirst from '../../images/GamingFirst'
 import {useState} from 'react'
 
@@ -25,14 +25,14 @@ const fuk = () => {
         return <button onClick={() => navigate("../../profile")} className={styles.button} type="button">Sign up to get full access!</button>
       }
     }
-  const GamingContent = () => (
+  const gamingContent = () => (
     <section className={styles.pageContent}>
       <h2 className={styles.GamingTitle}>Gaming</h2>
-      <GamingCard image={<GamingFirst />} text={firstText}/>
+      <gamingCard image={<GamingFirst />} text={firstText}/>
       {fuk()}
     </section>
     )
 
     
 
-export default GamingContent 
+export default gamingContent 
